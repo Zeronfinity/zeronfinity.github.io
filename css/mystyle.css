@@ -26,10 +26,11 @@ footer, .push {
     margin-bottom: 0;
 }
 
-.headerbg {
-    background-repeat: no-repeat;
-    background-image: url("../images/header.jpg"); 
-    background-size: 100%;
-    min-height: 550px;
-    box-shadow: 0px 20px 100px white;
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
 }
