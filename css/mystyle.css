@@ -37,4 +37,5 @@ footer, .push {
 
 .panel {
     overflow: auto;
+    display: inline-block;
 }
