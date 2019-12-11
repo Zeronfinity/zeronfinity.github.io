@@ -2,7 +2,6 @@ footer {
     background-color: black;
     color: white;  
     padding: 10px;    
-    min-width: 516px;
 }
 
 * {
@@ -39,5 +38,8 @@ footer, .push {
 .panel {
     overflow: auto;
     display: inline-block;
+}
+
+.mnWidth500px {
     min-width: 500px;
 }
