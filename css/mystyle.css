@@ -34,3 +34,7 @@ footer, .push {
 .table-borderless > thead > tr > th {
     border: none;
 }
+
+.panel {
+    overflow: auto;
+}
