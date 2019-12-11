@@ -38,4 +38,5 @@ footer, .push {
 .panel {
     overflow: auto;
     display: inline-block;
+    min-width: 500px;
 }
