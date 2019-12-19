@@ -19,7 +19,11 @@ html, body {
 }
 
 footer, .push {
-    height: 50px; /* .push must be the same height as .footer */
+    height: 75px; /* .push must be the same height as .footer */
+}
+
+.belowNav {
+    height: 50px; /* gap below navbar */
 }
 
 .navbar {
@@ -43,4 +47,21 @@ footer, .push {
 
 .mnWidth500px {
     min-width: 500px;
+}
+
+.outlined {
+  border: 1px solid blue;
+}
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
 }
