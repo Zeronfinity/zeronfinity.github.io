@@ -65,3 +65,19 @@ footer, .push {
 .fa:hover {
   opacity: 0.7;
 }
+
+.hint {
+  position: relative; /* needed for placeholder positioning */
+}
+
+.hint:not(:active) {
+  background-color: transparent; /* these two colors must be equivalent A */
+  color: transparent; /* these two colors must be equivalent B */
+  user-select: none; /* if you want it to be copyable, may highlight spoiler text when they click */
+}
+
+.hint:not(:active)::before {
+  position: absolute;
+  content: 'Click\a0here\a0to\a0reveal'; /* non-breaking spaces probably necessary */
+  color: #999;
+}
