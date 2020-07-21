@@ -81,3 +81,7 @@ footer, .push {
   content: 'Click\a0here\a0to\a0reveal'; /* non-breaking spaces probably necessary */
   color: #999;
 }
+
+.purpleColor {
+  color: #800080;
+}
